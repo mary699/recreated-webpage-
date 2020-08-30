@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-create a webpage</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #main {
+            background-color: white;
+            height: 650px;
+            width: 1362px;
+        }
+
+
+
+        #navbar {
+            border: none;
+            height: 80px;
+            width: 100%;
+            padding: 2px;
+            background-color: white;
+            display: inline-block;
+            margin: auto;
+        }
+
+        #logo {
+            margin-top: -15px;
+            padding-right: 70px;
+            color: purple;
+            margin-left: 20px;
+        }
+
+        #navbar ul {
+            list-style-type: none;
+            padding: 20px;
+            margin-left: 30px;
+            display: inline-flex;
+        }
+
+        #navbar #btnlogin {
+
+
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            border-style: none;
+        }
+
+        #navbar ul li a {
+            margin-left: 80px;
+            text-decoration: none;
+
+        }
+
+        #icons {
+            float: right;
+            margin-left: 200px;
+        }
+
+
+        #box #box1 {
+            float: right;
+            margin-right: 60px;
+        }
+
+        #box #box2 {
+            float: left;
+            margin-left: 70px;
+            margin-top: 120px;
+        }
+
+        #box2 #btnshopnow {
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            border-radius: 1px;
+            border-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="contain">
+            <div id="navbar">
+                <ul>
+                    <div id="logo">
+                        <span class="logoimage"><img src="images/pink bag.png" alt="" height=29px; width=30px;></span>
+                        <span class="logotext">CREATIVE SHOP</span>
+                    </div>
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">Shop</a></li>
+                    <li><a href="#" target="_blank">Feature</a></li>
+                    <li><a href="#" target="_blank">Portfolio</a></li>
+                    <li><a href="#" target="_blank">Contact</a></li>
+                    <div id="icons">
+                        <img src="images/heart.png" width=20px; height=20px; alt="">
+                        <img src="images/shopping-cart.png" width=20px; height=20px; alt="">
+                        <button id="btnlogin" type="submit">Login</button>
+                    </div>
+                </ul>
+            </div>
+
+            <div id="box">
+                <div id="box1">
+                    <img src="images/cover.png" width="800px" height="500px" alt="">
+                </div>
+                <div id="box2">
+                    <h6 id="textone">#StayHome #StaySafe</h6>
+                    <h2 id="texttwo">Shop Anything From <br>Your Home</h2><br>
+                    <h5 id="textthree">Lorem, ipsum dolor sit amet consectetur adipisicing <br>elit, sed diam norummy
+                        ibh
+                        euismod </h5>
+                    <br>
+                    <button id="btnshopnow" type="text">Shop Now</button>
+                </div>
+            </div>
+            <!-- ends here contain -->
+        </div>
+    </div>
+</body>
+
+</html>
